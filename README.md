@@ -41,8 +41,7 @@ Some of the key insights and queries explored in this project include:
 
 * **Average Pizzas Per Order**
   Calculated using total quantity divided by distinct orders.
-![Average Pizzas Per Order]([images/nombre-de-la-imagen.png](https://github.com/IrinaOrias/Pizza-by-the-Numbers-A-12-Month-Review/blob/main/KPI%201%20Total_Revenue.PNG?raw=true))
-
+![Average Pizzas Per Order](https://github.com/IrinaOrias/Pizza-by-the-Numbers-A-12-Month-Review/blob/main/images/KPI%201%20Total_Revenue.PNG?raw=true)
 
 * **Revenue by Pizza Type and Size**
   Helped identify which products are top earners.
