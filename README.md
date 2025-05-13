@@ -56,6 +56,9 @@ Some of the key insights and queries explored in this project include:
 
 Each of these analyses is visualized in **Power BI** with clearly labeled charts and dynamic filters for further exploration.
 
+
+![Average Pizzas Per Order]()
+
 ---
 
 ### **Dataset Source**
