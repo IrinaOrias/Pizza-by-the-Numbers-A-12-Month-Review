@@ -57,7 +57,7 @@ Some of the key insights and queries explored in this project include:
 Each of these analyses is visualized in **Power BI** with clearly labeled charts and dynamic filters for further exploration.
 
 
-![Average Pizzas Per Order]()
+![Average Pizzas Per Order](https://raw.githubusercontent.com/IrinaOrias/Pizza-by-the-Numbers-A-12-Month-Review/refs/heads/main/Dashboard%20images/Pizza%20insights_page-0001.jpg)
 
 ---
 
