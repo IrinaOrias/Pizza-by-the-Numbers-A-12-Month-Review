@@ -6,6 +6,13 @@ This project explores a pizza restaurant's sales dataset using **SQL** for data 
 
 ---
 
+### **Dataset Source**
+
+This project is based on a sample dataset available publicly here:
+📄 [Pizza Sales Dataset – Google Sheets](https://docs.google.com/spreadsheets/d/1mF1G56ZrwQlksmS5meWgC1yXRgeqGV2T/edit?gid=679792667#gid=679792667)
+
+---
+
 ### **Why I Chose This Project**
 
 I chose this project because it's both fun and representative of real business problems. Working with sales data allowed me to ask relevant questions like:
@@ -59,10 +66,11 @@ Each of these analyses is visualized in **Power BI** with clearly labeled charts
 
 ![Average Pizzas Per Order](https://raw.githubusercontent.com/IrinaOrias/Pizza-by-the-Numbers-A-12-Month-Review/refs/heads/main/Dashboard%20images/Pizza%20insights_page-0001.jpg)
 
+
+![Average Pizzas Per Order](https://raw.githubusercontent.com/IrinaOrias/Pizza-by-the-Numbers-A-12-Month-Review/refs/heads/main/Dashboard%20images/Pizza%20insights_page-0002.jpg)
+
+
 ---
 
-### **Dataset Source**
 
-This project is based on a sample dataset available publicly here:
-📄 [Pizza Sales Dataset – Google Sheets](https://docs.google.com/spreadsheets/d/1mF1G56ZrwQlksmS5meWgC1yXRgeqGV2T/edit?gid=679792667#gid=679792667)
 
