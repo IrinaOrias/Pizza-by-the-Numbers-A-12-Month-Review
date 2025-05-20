@@ -1,74 +1,57 @@
-## **Pizza Sales Analysis — SQL & Power BI Project**
+# Pizza Sales Analysis – 2015
 
-### **Overview**
+## Objective
+The objective of this analysis is to evaluate the complete pizza sales performance for the one-year period from **January 1, 2015, to December 31, 2015**. 
 
-This project explores a pizza restaurant's sales dataset using **SQL** for data analysis and **Power BI** for visualization. My goal was to practice writing practical queries, uncovering business insights, and designing clear, insightful dashboards that reflect real-world decision-making needs.
-
----
-
-### **Dataset Source**
-
-This project is based on a sample dataset available publicly here:
-📄 [Pizza Sales Dataset – Google Sheets](https://docs.google.com/spreadsheets/d/1mF1G56ZrwQlksmS5meWgC1yXRgeqGV2T/edit?gid=679792667#gid=679792667)
+By examining key metrics such as revenue, order volume, product preferences, and sales trends across days, months, categories, and sizes, this report aims to provide the business team with clear, data-driven insights. These insights are intended to support strategic decision-making in areas such as inventory management, marketing campaigns, staffing, and product focus.
 
 ---
 
-### **Why I Chose This Project**
+## Data Overview
+This analysis is based on a transaction-level dataset covering pizza sales from **January 1st to December 31st, 2015**. The dataset contains **48,620 records**, each representing an individual pizza sold.
 
-I chose this project because it's both fun and representative of real business problems. Working with sales data allowed me to ask relevant questions like:
+**Dataset available here:**  
+[Pizza Sales Dataset (Google Sheets)](https://docs.google.com/spreadsheets/d/1mF1G56ZrwQlksmS5meWgC1yXRgeqGV2T/edit?gid=679792667#gid=679792667)
 
-* What are the busiest times for pizza sales?
-* Which pizza types are most popular?
-* What categories generate the most revenue?
-* Are there seasonal or weekly trends in customer orders?
-
-This project helped me strengthen my ability to work with raw data, build analytical logic, and communicate findings visually—all crucial skills for a data-driven role.
-
----
-
-### **Skills Used**
-
-* **SQL (Structured Query Language)**
-  Used for data extraction, aggregation, and cleaning. I wrote multiple queries to calculate metrics like average order size, revenue per category, peak days/months, and sales distribution.
-
-* **Power BI**
-  Used to design interactive dashboards that communicate trends clearly and effectively.
-
-* **Data Cleaning & Preparation**
-  Ensured consistent column types, identified useful dimensions (like date parts), and prepared clean, query-ready data.
-
-* **Data Analysis**
-  Interpreted results, explored patterns, and connected data points to real-world business implications.
+**Key Fields:**
+- `pizza_id` and `order_id` to track unique pizzas and their associated orders  
+- `pizza_name_id` for standardized product codes  
+- `order_date` with timestamp for temporal analysis  
+- `unit_price` and `total_price` for revenue calculations  
+- `pizza_size` and `pizza_category` to segment sales  
+- `pizza_ingredients` and `pizza_name` for product-level insight
 
 ---
 
-### **Project Highlights**
+## Key Findings
 
-Some of the key insights and queries explored in this project include:
+### Customer Preferences
+- The most popular category was **Classic pizzas**, with over **15,000 sold**.
+- The **Large size** was the preferred option, accounting for **45.89%** of total sales.
 
-* **Average Pizzas Per Order**
-  Calculated using total quantity divided by distinct orders.
+### Ordering Patterns
+- **Friday** had the highest number of orders (around **3,500**), while **Sunday** had the fewest.
+- This reflects common weekend dining habits.
 
-* **Revenue by Pizza Type and Size**
-  Helped identify which products are top earners.
+### Seasonal Trends
+- **July** was the month with the highest number of orders (**1,935**), and **September** had the lowest (**661**).
+- Sales increase during the summer and decline in early fall.
 
-* **Orders by Day of the Week & Month**
-  Used to uncover weekly and monthly patterns.
+---
 
-* **% of Sales by Pizza Category**
-  Explored how much each pizza category contributes to total revenue.
+## Recommendations and Action Points
 
-* **Top 5 and Bottom 5 Bestselling Pizzas**
-  Helpful for decision-making on promotions or menu adjustments.
+### 1. Increase Sales in Low-Performing Months
+**Insight:** September and October show the lowest order volumes.  
+**Action:** Create a promotional calendar and evaluate results monthly.
 
-Each of these analyses is visualized in **Power BI** with clearly labeled charts and dynamic filters for further exploration.
+### 2. Encourage Upselling of Popular Products
+**Insight:** Classic and Large pizzas are consistently preferred by customers.  
+**Action:** Update the menu to highlight top sellers and test customer response.
 
-
-![Average Pizzas Per Order](https://raw.githubusercontent.com/IrinaOrias/Pizza-by-the-Numbers-A-12-Month-Review/refs/heads/main/Dashboard%20images/Pizza%20insights_page-0001.jpg)
-
-
-![Average Pizzas Per Order](https://raw.githubusercontent.com/IrinaOrias/Pizza-by-the-Numbers-A-12-Month-Review/refs/heads/main/Dashboard%20images/Pizza%20insights_page-0002.jpg)
-
+### 3. Maximize Revenue on Busy and Slow Days
+**Insight:** Sales peak on Fridays and dip on Sundays.  
+**Action:** Adjust staffing levels and launch targeted advertisements weekly.
 
 ---
 
