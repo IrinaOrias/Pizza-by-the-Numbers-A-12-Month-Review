@@ -86,9 +86,3 @@ Friday was the busiest day, and Sunday the slowest.
 **Action:**  
 I would adjust staffing levels according to these trends and run weekly ads (for example, every Thursday and Sunday) to drive engagement at the right time.
 
----
-
-This analysis gave me a clear view of what was working well and where there was room for improvement. It also provided practical insights that can help the business make smarter decisions moving forward—whether that's increasing revenue, managing operations more efficiently, or better serving its customers.
-
-
-
