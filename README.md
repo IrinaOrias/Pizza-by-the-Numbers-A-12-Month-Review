@@ -38,10 +38,6 @@ You can access the source dataset here:
 - `pizza_size`, `pizza_category`: For analyzing sales by product segmentation
 - `pizza_ingredients`, `pizza_name`: Descriptive data for product-level insights
 
-I cleaned and prepared the data in Power BI using Power Query, ensuring consistency in fields like date formats, product naming, and pricing.
-
----
-
 ## Key Findings
 
 ### 1. Customer Preferences
@@ -49,20 +45,35 @@ I cleaned and prepared the data in Power BI using Power Query, ensuring consiste
 - **Large size** dominated, representing **45.89%** of all pizzas sold
 - The **least popular size** was XX-Large, with minimal contribution to overall volume
 
+![Sales by Category](https://github.com/IrinaOrias/Pizza-by-the-Numbers-A-12-Month-Review/blob/main/Imagenes/Sales_by%20_Category.PNG?raw=true)  
+![Sales by Size](https://github.com/IrinaOrias/Pizza-by-the-Numbers-A-12-Month-Review/blob/main/Imagenes/Sales_by%20_Size.PNG?raw=true)
+
+---
+
 ### 2. Best and Worst Sellers
 - **Top pizza by revenue**: *The Thai Chicken Pizza*
 - **Top pizza by quantity and orders**: *The Classic Deluxe Pizza*
 - **Lowest performers**: *The Brie Carre Pizza* ranked lowest across revenue, quantity, and order count
+
+![Best and Worst Sellers](https://github.com/IrinaOrias/Pizza-by-the-Numbers-A-12-Month-Review/blob/main/Imagenes/Best%20and%20worst%20sellers.PNG?raw=true)
+
+---
 
 ### 3. Daily and Weekly Patterns
 - Sales peaked on **Friday**, with approximately **3.5K orders**
 - **Sunday** had the lowest average daily orders
 - Weekends (especially Friday and Saturday evenings) were the busiest times
 
+![Weekly Trends](https://github.com/IrinaOrias/Pizza-by-the-Numbers-A-12-Month-Review/blob/main/Imagenes/Weekly%20Trends.PNG?raw=true)
+
+---
+
 ### 4. Monthly Trends
 - **July** was the best-performing month with **1,935 orders**
 - **October** had the lowest order volume, with **1,640 orders**
 - There was a noticeable decline in orders between **August and October**
+
+![Monthly Trends](https://github.com/IrinaOrias/Pizza-by-the-Numbers-A-12-Month-Review/blob/main/Imagenes/Montly%20thrend.PNG?raw=true)
 
 ---
 
