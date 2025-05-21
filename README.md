@@ -1,88 +1,102 @@
 # Pizza Sales Analysis – 2015
 
+## Executive Summary
+
+This report provides a comprehensive overview of pizza sales across a full year, from January 1 to December 31, 2015. Using interactive dashboards in Power BI, I explored total revenue, order trends, customer preferences, and product performance. 
+
+The analysis revealed:
+- Over **$817K** in revenue generated from **21,350 orders** and nearly **50,000 pizzas sold**
+- Strong customer preference for **Classic** and **Large** pizzas
+- Clear patterns in **weekly and monthly sales trends**, with a noticeable dip in **October**
+- High-performing products like the **Classic Deluxe** and **Thai Chicken** pizzas
+- Opportunities to improve performance through targeted promotions and smarter product positioning
+
+These insights can help guide strategic planning in marketing, inventory, staffing, and product bundling.
+
+---
+
 ## Objective
 
-The goal is to take a close look at how a pizza business performed over the course of a full year, from **January 1, 2015, to December 31, 2015**.  
+The main goal of this project was to evaluate the performance of a pizza business throughout 2015. I used Power BI to analyze key business metrics, such as revenue, total orders, pizza preferences by size and category, and variations in customer behavior by day and month.
 
-I focused on understanding overall sales, customer behavior, and product trends by analyzing key metrics such as revenue, order volume, product preferences, and how sales varied across days, months, categories, and pizza sizes. The insights from this analysis are intended to support data-informed decisions in areas like **inventory planning, marketing strategy, staffing, and menu development**.
+The insights generated from this project are designed to support data-driven decisions in areas such as **menu strategy**, **promotional planning**, **seasonal adjustments**, and **operational efficiency**.
 
 ---
 
 ## Data Overview
 
-For this project, I worked with a transaction-level dataset that covered all pizza sales throughout 2015. The dataset contains **48,620 records**, with each row representing an individual pizza sold.
+The analysis is based on a transactional dataset containing **48,620 records**, where each row represents a pizza sold. 
 
-You can view the dataset here:  
+You can access the source dataset here:  
 [**Pizza Sales Dataset (Google Sheets)**](https://docs.google.com/spreadsheets/d/1mF1G56ZrwQlksmS5meWgC1yXRgeqGV2T/edit?gid=679792667#gid=679792667)
 
-### The dataset includes the following fields:
-- `pizza_id` and `order_id`: Unique identifiers for each pizza and the order it belonged to  
-- `pizza_name_id`: A standardized product code for grouping pizzas  
-- `order_date`: Timestamps for when each pizza was ordered  
-- `unit_price` and `total_price`: Pricing information for each item  
-- `pizza_size` and `pizza_category`: Details for product segmentation  
-- `pizza_ingredients` and `pizza_name`: Product descriptions and display names
+### Key fields in the dataset:
+- `pizza_id`, `order_id`: Unique identifiers for each pizza and order
+- `pizza_name_id`: Grouped product code for each pizza
+- `order_datetime`: Date and time of the order
+- `unit_price`, `total_price`: Price information per pizza and per line item
+- `pizza_size`, `pizza_category`: For analyzing sales by product segmentation
+- `pizza_ingredients`, `pizza_name`: Descriptive data for product-level insights
 
-Before analysis, I cleaned and reviewed the data to ensure consistency, accuracy, and readiness for exploration.
+I cleaned and prepared the data in Power BI using Power Query, ensuring consistency in fields like date formats, product naming, and pricing.
 
 ---
 
 ## Key Findings
 
 ### 1. Customer Preferences
-Customers clearly favored:
-- **Classic pizzas**, which were the best-selling category with over **15,000 units sold**.
-- **Large pizzas**, which accounted for nearly **46%** of all sales, suggesting group orders or a preference for better value.
+- **Classic pizzas** were the top-selling category, with over **15,000 units sold**
+- **Large size** dominated, representing **45.89%** of all pizzas sold
+- The **least popular size** was XX-Large, with minimal contribution to overall volume
 
-### 2. Ordering Patterns
-- **Friday** had the highest number of orders (around **3,500**), likely due to weekend dining habits.  
-- **Sunday** had the fewest orders, indicating an opportunity to increase activity on that day.
+### 2. Best and Worst Sellers
+- **Top pizza by revenue**: *The Thai Chicken Pizza*
+- **Top pizza by quantity and orders**: *The Classic Deluxe Pizza*
+- **Lowest performers**: *The Brie Carre Pizza* ranked lowest across revenue, quantity, and order count
 
-### 3. Seasonal Trends
-- **July** was the strongest month with **1,935 orders**, while **September** had the lowest volume at **661**.  
-This trend points to a seasonal pattern, with summer being the busiest time.
+### 3. Daily and Weekly Patterns
+- Sales peaked on **Friday**, with approximately **3.5K orders**
+- **Sunday** had the lowest average daily orders
+- Weekends (especially Friday and Saturday evenings) were the busiest times
+
+### 4. Monthly Trends
+- **July** was the best-performing month with **1,935 orders**
+- **October** had the lowest order volume, with **1,640 orders**
+- There was a noticeable decline in orders between **August and October**
 
 ---
 
 ## Recommendations and Action Points
 
-### 1. Increase Sales in Low-Performing Months
+### 1. Drive Sales in Low-Performing Months
 
-**What I observed:**  
-September and October had noticeably lower order volumes.
+**Observation:** October was the weakest month of the year.
 
-**My recommendation:**  
-- Launch promotions or themed offers during slow months.  
-- Align campaigns with local events or seasonal activities to draw more customers.
+**Recommendation:**  
+- Run promotions or limited-time offers in the fall to boost interest and engagement  
+- Use themed campaigns tied to local events or holidays to drive urgency
 
-**Action:**  
-I suggest creating a monthly promotion calendar and tracking the results of each campaign to measure effectiveness.
 
 ---
 
-### 2. Encourage Upselling of Popular Products
+### 2. Promote Bestsellers for Higher Value
 
-**What I observed:**  
-Classic pizzas and Large sizes were top choices for most customers.
+**Observation:** Classic pizzas and larger sizes perform consistently well.
 
-**My recommendation:**  
-- Develop combo deals using these bestsellers, such as a Large Classic Pizza with a drink.  
-- Add upsell suggestions in the ordering process to encourage upgrades or add-ons.
+**Recommendation:**  
+- Create combo meals featuring bestsellers like the Classic Deluxe Pizza and Large size  
+- Add upsell prompts at checkout for size upgrades or premium toppings
 
-**Action:**  
-I recommend updating the menu layout to feature these items and testing upsell messaging both online and in-store to improve average order value.
 
 ---
 
-### 3. Maximize Revenue on Busy and Slow Days
+### 3. Capitalize on Busy Days
 
-**What I observed:**  
-Friday was the busiest day, and Sunday the slowest.
+**Observation:** Fridays and Saturdays are peak times for orders.
 
-**My recommendation:**  
-- Introduce premium bundles or new limited-time offers on Fridays to capitalize on high traffic.  
-- Use discounts or family-oriented deals on Sundays to boost activity.
+**Recommendation:**  
+- Launch premium bundle deals or family meals specifically for weekends  
+- Reinforce staff schedules and delivery capacity to handle volume spikes
 
-**Action:**  
-I would adjust staffing levels according to these trends and run weekly ads (for example, every Thursday and Sunday) to drive engagement at the right time.
+
 
