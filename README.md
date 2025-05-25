@@ -87,9 +87,6 @@ You can access the source dataset here:
 - Run promotions or limited-time offers in the fall to boost interest and engagement  
 - Use themed campaigns tied to local events or holidays to drive urgency
 
-
----
-
 ### 2. Promote Bestsellers for Higher Value
 
 **Observation:** Classic pizzas and larger sizes perform consistently well.
@@ -98,9 +95,6 @@ You can access the source dataset here:
 - Create combo meals featuring bestsellers like the Classic Deluxe Pizza and Large size  
 - Add upsell prompts at checkout for size upgrades or premium toppings
 
-
----
-
 ### 3. Capitalize on Busy Days
 
 **Observation:** Fridays and Saturdays are peak times for orders.
@@ -108,6 +102,11 @@ You can access the source dataset here:
 **Recommendation:**  
 - Launch premium bundle deals or family meals specifically for weekends  
 - Reinforce staff schedules and delivery capacity to handle volume spikes
+ ---
+**Conclusion**
+This project converted over 48,000 individual pizza sales into a clear story of what drives performance in the business. Using Power BI, I translated raw data into a set of focused insights and strategies that support smarter planning, stronger promotions, and more profitable operations.
+By understanding what customers want, when they order, and how they interact with the menu, the business can now make more informed, confident decisions across marketing, operations, and product development. This analysis doesn’t just reflect the past—it’s a guide for increasing sales and improving customer satisfaction moving forward.
+
 
 
 
